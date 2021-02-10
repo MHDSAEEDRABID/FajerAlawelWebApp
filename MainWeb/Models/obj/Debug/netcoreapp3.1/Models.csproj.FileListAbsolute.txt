@@ -1,0 +1,9 @@
+D:\FajerAlawel\MainWeb\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\FajerAlawel\MainWeb\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\FajerAlawel\MainWeb\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\FajerAlawel\MainWeb\Models\obj\Debug\netcoreapp3.1\Models.pdb

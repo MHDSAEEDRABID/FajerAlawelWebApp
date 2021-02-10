@@ -1,0 +1,9 @@
+D:\FajerAlawel\MainWeb\Utility\bin\Debug\netcoreapp3.1\Utility.deps.json
+D:\FajerAlawel\MainWeb\Utility\bin\Debug\netcoreapp3.1\Utility.dll
+D:\FajerAlawel\MainWeb\Utility\bin\Debug\netcoreapp3.1\Utility.pdb
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.csprojAssemblyReference.cache
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfoInputs.cache
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.AssemblyInfo.cs
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.csproj.CoreCompileInputs.cache
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.dll
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\netcoreapp3.1\Utility.pdb
