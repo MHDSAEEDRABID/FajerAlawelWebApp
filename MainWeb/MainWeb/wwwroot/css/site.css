@@ -1,7 +1,8 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+* {
+    font-family: 'Tajawal';
+}
 
 a.navbar-brand {
   white-space: normal;
@@ -30,13 +31,13 @@ a {
 -------------------------------------------------- */
 html {
     font-size: 14px;
-    font-family: 'Cairo';
+    
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .border-top {
