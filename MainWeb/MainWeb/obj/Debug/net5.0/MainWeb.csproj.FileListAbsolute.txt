@@ -384,6 +384,7 @@ D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.TagHelpers.input.cache
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.TagHelpers.output.cache
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.RazorCoreGenerate.cache
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\Category\Index.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
@@ -400,3 +401,4 @@ D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.dll
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\ref\MainWeb.dll
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.pdb
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.genruntimeconfig.cache
+D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
