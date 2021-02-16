@@ -15608,8 +15608,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\FajerAlawel\\MainWeb\\MainWeb\\Pages\\Admin\\Category\\Upsert.cshtml",
+      "TargetPath": "Pages\\Admin\\Category\\Upsert.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\FajerAlawel\\MainWeb\\MainWeb\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\FajerAlawel\\MainWeb\\MainWeb\\Pages\\Admin\\Category\\Index.cshtml",
+      "TargetPath": "Pages\\Admin\\Category\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

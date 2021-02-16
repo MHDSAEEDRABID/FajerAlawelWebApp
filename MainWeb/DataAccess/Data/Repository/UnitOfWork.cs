@@ -18,10 +18,10 @@ namespace DataAccess.Data.Repository
         }
 
         public ICategoryRepository Category { get; set; }
-
+        public IFoodTypeRepository FoodType { get; private set; }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void Save()

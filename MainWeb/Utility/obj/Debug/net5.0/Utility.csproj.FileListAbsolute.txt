@@ -9,3 +9,4 @@ D:\FajerAlawel\MainWeb\Utility\obj\Debug\net5.0\Utility.csproj.CoreCompileInputs
 D:\FajerAlawel\MainWeb\Utility\obj\Debug\net5.0\Utility.dll
 D:\FajerAlawel\MainWeb\Utility\obj\Debug\net5.0\ref\Utility.dll
 D:\FajerAlawel\MainWeb\Utility\obj\Debug\net5.0\Utility.pdb
+D:\FajerAlawel\MainWeb\Utility\obj\Debug\net5.0\Utility.csprojAssemblyReference.cache

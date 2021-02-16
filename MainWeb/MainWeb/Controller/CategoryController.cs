@@ -22,5 +22,17 @@ namespace MainWeb.Controller
         {
             return Json(new { data = _unitOfWork.Category.GetAll() });
         }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDB = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
+            if (objFromDB == null)
+            {
+                return Json(new { success = false, message = "Error While Deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDB);
+            _unitOfWork.Save();
+            return Json(new { success = true,message= "Deleting successful" });
+        }
     }
 }
