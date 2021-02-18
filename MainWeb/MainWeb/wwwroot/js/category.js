@@ -21,7 +21,7 @@ function loadList() {
                                 <a href="/Admin/category/upsert?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:100px;">
                                     <i class="far fa-edit"></i> Edit
                                 </a>
-                                <a class="btn btn-danger text-white" style="cursor:pointer; width:100px;" onclick=alert("Hello")>
+                                <a class="btn btn-danger text-white" style="cursor:pointer; width:100px;" onclick=Delete('/api/category/'+${data})>
                                     <i class="far fa-trash-alt"></i> Delete
                                 </a>
                     </div>`;
@@ -33,11 +33,6 @@ function loadList() {
         },
         "width": "100%"
     });
-}
-
-function test()
-{
-    alert("test for Click event");
 }
 
 function Delete(url) {
@@ -65,4 +60,4 @@ function Delete(url) {
         }
     });
 }
-/*onclick=Delete('/api/category/'+${data})*/
+/**/

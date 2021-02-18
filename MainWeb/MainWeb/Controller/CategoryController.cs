@@ -22,7 +22,7 @@ namespace MainWeb.Controller
         {
             return Json(new { data = _unitOfWork.Category.GetAll() });
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             var objFromDB = _unitOfWork.Category.GetFirstOrDefault(x => x.Id == id);
@@ -32,7 +32,7 @@ namespace MainWeb.Controller
             }
             _unitOfWork.Category.Remove(objFromDB);
             _unitOfWork.Save();
-            return Json(new { success = true,message= "Deleting successful" });
+            return Json(new { success = true, message = "Deleting successful" });
         }
     }
 }
