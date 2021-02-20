@@ -403,3 +403,4 @@ D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.dll
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\ref\MainWeb.dll
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.pdb
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.genruntimeconfig.cache
+D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\FoodType\Upsert.cshtml.g.cs
