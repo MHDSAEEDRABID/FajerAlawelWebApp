@@ -1,5 +1,3 @@
-D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\appsettings.Development.json
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\appsettings.json
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\MainWeb.StaticWebAssets.xml
@@ -319,6 +317,7 @@ D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
@@ -340,6 +339,7 @@ D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.r
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
 D:\FajerAlawel\MainWeb\MainWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -386,6 +386,7 @@ D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\MainWeb.RazorCoreGenerate.cache
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\Category\Index.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\Category\Upsert.cshtml.g.cs
+D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Admin\FoodType\Index.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 D:\FajerAlawel\MainWeb\MainWeb\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
