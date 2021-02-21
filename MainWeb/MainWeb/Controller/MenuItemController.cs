@@ -11,39 +11,44 @@ namespace MainWeb.Controller
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _hostingEnvironment;
+
         public MenuItemController(IUnitOfWork unitOfWork, IWebHostEnvironment hostingEnvironment)
         {
             _unitOfWork = unitOfWork;
             _hostingEnvironment = hostingEnvironment;
         }
+
         [HttpGet]
         public IActionResult Get()
         {
             return Json(new { data = _unitOfWork.MenuItem.GetAll(null, null, "Category,FoodType") });
         }
+
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try
             {
-                var objFromDB = _unitOfWork.MenuItem.GetFirstOrDefault(x => x.Id == id);
-                if (objFromDB == null)
+                var objFromDb = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == id);
+                if (objFromDb == null)
                 {
-                    return Json(new { success = false, message = "Error While Deleting" });
+                    return Json(new { success = false, message = "Error while deleting." });
                 }
-                string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, objFromDB.Image.TrimStart('\\'));
+
+                var imagePath = Path.Combine(_hostingEnvironment.WebRootPath, objFromDb.Image.TrimStart('\\'));
                 if (System.IO.File.Exists(imagePath))
                 {
                     System.IO.File.Delete(imagePath);
                 }
-                _unitOfWork.MenuItem.Remove(objFromDB);
+
+                _unitOfWork.MenuItem.Remove(objFromDb);
                 _unitOfWork.Save();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return Json(new { success = false, message = $"{ex.Message}" });
+                return Json(new { success = false, message = "Error while deleting." });
             }
-            return Json(new { success = true, message = "Deleting successful" });
+            return Json(new { success = true, message = "Delete success." });
         }
     }
 }

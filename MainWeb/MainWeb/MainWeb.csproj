@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Admin\MenuItem\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.2" />
@@ -20,11 +24,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Admin\MenuItem\" />
     <Folder Include="Pages\Admin\User\" />
     <Folder Include="Pages\Customer\Cart\" />
     <Folder Include="Pages\Customer\Home\" />
     <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Images\menuItems\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Admin\MenuItem\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Admin\MenuItem\Upsert.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Admin\MenuItem\Upsert.cshtml" />
   </ItemGroup>
 
 </Project>
