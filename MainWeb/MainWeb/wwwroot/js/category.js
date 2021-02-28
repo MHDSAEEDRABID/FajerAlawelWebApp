@@ -19,7 +19,7 @@ function loadList() {
                 "render": function (data) {
                     return ` <div class="text-center">
                                 <a href="/Admin/category/upsert?id=${data}" class="btn btn-success text-white" style="cursor:pointer; width:100px;">
-                                    <i class="far fa-edit"></i> Edit
+                                    <i class="far fa-edit"></i> 
                                 </a>
                                 <a class="btn btn-danger text-white" style="cursor:pointer; width:100px;" onclick=Delete('/api/category/'+${data})>
                                     <i class="far fa-trash-alt"></i> Delete
